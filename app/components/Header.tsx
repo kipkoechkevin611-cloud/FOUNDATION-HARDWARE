@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, ShoppingCart, Store, ChevronRight } from "lucide-react";
+import { Menu, X, Phone, ShoppingCart, ChevronRight } from "lucide-react";
 import { useCart } from "./CartContext";
 import { categories } from "@/lib/data";
 
@@ -36,14 +37,15 @@ export default function Header() {
 
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-[#0F4C81] rounded-lg flex items-center justify-center">
-              <Store className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-[#0F4C81]">Foundation</h1>
-              <p className="text-xs text-gray-600 -mt-1">Hardware</p>
-            </div>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.jpeg"
+              alt="Foundation Hardware"
+              width={140}
+              height={56}
+              className="h-14 w-auto object-contain"
+              priority
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

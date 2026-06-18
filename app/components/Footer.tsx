@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, ArrowRight } from "lucide-react";
 
 const FacebookIcon = () => (
@@ -43,14 +44,14 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-[#0F4C81] font-bold text-lg">FH</span>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold">Foundation</h3>
-                <p className="text-xs text-gray-300 -mt-1">Hardware</p>
-              </div>
+            <div className="mb-4">
+              <Image
+                src="/logo.jpeg"
+                alt="Foundation Hardware"
+                width={160}
+                height={64}
+                className="h-16 w-auto object-contain brightness-0 invert"
+              />
             </div>
             <p className="text-gray-300 text-sm mb-4">
               Your trusted partner for quality building materials, plumbing, electrical, roofing, tools, and solar products.
