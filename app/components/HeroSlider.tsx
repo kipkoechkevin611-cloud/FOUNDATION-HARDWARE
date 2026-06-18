@@ -61,7 +61,7 @@ export default function HeroSlider() {
   useEffect(() => {
     const timer = setInterval(() => {
       paginate(1);
-    }, 5000);
+    }, 3000);
     return () => clearInterval(timer);
   }, [paginate]);
 
@@ -167,7 +167,7 @@ export default function HeroSlider() {
           className="h-full bg-[#F5A623]"
           initial={{ width: "0%" }}
           animate={{ width: "100%" }}
-          transition={{ duration: 5, ease: "linear" }}
+          transition={{ duration: 3, ease: "linear" }}
           key={currentIndex}
         />
       </div>
