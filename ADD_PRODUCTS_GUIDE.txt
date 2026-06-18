@@ -1,0 +1,87 @@
+HOW TO ADD RANDTECH PRODUCTS TO YOUR WEBSITE
+=============================================
+
+STEP 1: Visit https://www.randtech.co.ke/ and browse their products
+
+STEP 2: For each product you want to add, note down:
+  - Product Name
+  - Randtech Price
+  - Category (Building Materials, Electrical, Plumbing, etc.)
+
+STEP 3: Calculate YOUR price (50% of Randtech's price):
+  YOUR PRICE = Randtech Price × 0.5
+  
+  Example: If Randtech sells cement at KES 700, your price = 700 × 0.5 = KES 350
+
+STEP 4: Open lib/data.ts and copy this template for each product:
+
+{
+  id: "unique-id",
+  name: "Product Name",
+  category: "Category Name",
+  description: "Brief description (write your own, don't copy)",
+  image: "https://images.unsplash.com/photo-XXXXXXXX?w=400&auto=format&fit=crop&q=60",
+  price: YOUR_CALCULATED_PRICE,
+  unit: "piece/bag/meter/etc",
+  specifications: ["Spec 1", "Spec 2"],
+  inStock: true
+},
+
+EXAMPLE - Adding Randtech's cement product:
+Randtech Price: KES 700 (Bamburi Cement 50kg)
+Your Price: 700 × 0.5 = KES 350
+
+Template entry:
+{
+  id: "bamburi-cement",
+  name: "Bamburi Cement 50kg",
+  category: "Building Materials",
+  description: "High quality Bamburi Portland cement for construction projects",
+  image: "https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?w=400&auto=format&fit=crop&q=60",
+  price: 350,
+  unit: "bag",
+  specifications: ["50kg bag", "Grade 32.5R", "Bamburi brand"],
+  inStock: true
+},
+
+IMAGE SOURCES (Free, Legal):
+- https://unsplash.com (search for: cement, steel, pipes, solar panels, etc.)
+- https://pexels.com
+- https://pixabay.com
+
+HOW TO FIND IMAGES:
+1. Go to unsplash.com
+2. Search for your product type (e.g., "cement bags")
+3. Click an image
+4. Click "Download free"
+5. Copy the image URL or download and upload to your server
+
+COMMON CATEGORIES:
+- Building Materials
+- Steel & Reinforcement
+- Timber & Boards
+- Roofing Materials
+- Plumbing & Water Systems
+- Tiles & Flooring
+- Paints & Finishes
+- Electrical & Lighting
+- Solar Products
+- Tools & Equipment
+- Hardware & Fasteners
+- Doors & Windows
+- Safety Equipment
+- Fencing Materials
+- Ceiling & Drywall
+
+PRICE CALCULATION CHART:
+Randtech Price → Your Price (50%)
+KES 100 → KES 50
+KES 200 → KES 100
+KES 500 → KES 250
+KES 1000 → KES 500
+KES 2000 → KES 1000
+KES 5000 → KES 2500
+KES 10000 → KES 5000
+KES 20000 → KES 10000
+
+IMPORTANT: Always write your own descriptions. Do not copy text from Randtech.
