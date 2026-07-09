@@ -1,4 +1,4 @@
-# Product Import Guide - Foundation Hardware
+# Product Import Guide - General Hardware
 
 ## How to Add Products from Randtech (or any supplier)
 

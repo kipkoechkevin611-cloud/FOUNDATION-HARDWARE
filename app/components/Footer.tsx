@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="mb-4">
               <Image
                 src="/logo.jpeg"
-                alt="Foundation Hardware"
+                alt="General Hardware"
                 width={160}
                 height={64}
                 className="h-16 w-auto object-contain brightness-0 invert"
@@ -152,7 +152,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container mx-auto px-4 py-4">
           <p className="text-center text-gray-300 text-sm">
-            © {new Date().getFullYear()} Foundation Hardware. All rights reserved.
+            © {new Date().getFullYear()} General Hardware. All rights reserved.
           </p>
         </div>
       </div>

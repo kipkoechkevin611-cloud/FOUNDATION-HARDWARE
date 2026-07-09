@@ -12,11 +12,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Foundation Hardware | Your Trusted Building & Hardware Partner",
+  title: "General Hardware | Your Trusted Building & Hardware Partner",
   description: "Quality Building Materials, Plumbing, Electrical, Roofing, Tools, Solar Products and More. One-stop supplier for all your construction needs.",
   keywords: "building materials, hardware store, plumbing supplies, electrical products, roofing materials, tools, solar products, construction, Kenya",
   openGraph: {
-    title: "Foundation Hardware | Your Trusted Building & Hardware Partner",
+    title: "General Hardware | Your Trusted Building & Hardware Partner",
     description: "Quality Building Materials, Plumbing, Electrical, Roofing, Tools, Solar Products and More.",
     type: "website",
   },

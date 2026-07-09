@@ -70,7 +70,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   const generateWhatsAppMessage = useCallback(() => {
     const phone = "254788874942";
-    let message = `Hello Foundation Hardware,\n\nI would like to order the following items:\n\n`;
+    let message = `Hello General Hardware,\n\nI would like to order the following items:\n\n`;
     
     items.forEach((item, index) => {
       message += `${index + 1}. ${item.name}\n`;

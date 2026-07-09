@@ -45,9 +45,9 @@ export default function OrderModal({
     const phone = "254788874942";
     let message = "";
     if (cartMessage) {
-      message = `Hello Foundation Hardware,\n\n*Customer Details:*\nName: ${info.name}\nPhone: ${info.phone}\nDelivery Location: ${info.location}\n\n${cartMessage}`;
+      message = `Hello General Hardware,\n\n*Customer Details:*\nName: ${info.name}\nPhone: ${info.phone}\nDelivery Location: ${info.location}\n\n${cartMessage}`;
     } else {
-      message = `Hello Foundation Hardware,\n\n*Customer Details:*\nName: ${info.name}\nPhone: ${info.phone}\nDelivery Location: ${info.location}\n\n*Order Details:*\nProduct: ${productName}\nQuantity: ${quantity} ${unit}\nEstimated Total: ${totalPrice}\n\nPlease confirm pricing and delivery.\n\nThank you.`;
+      message = `Hello General Hardware,\n\n*Customer Details:*\nName: ${info.name}\nPhone: ${info.phone}\nDelivery Location: ${info.location}\n\n*Order Details:*\nProduct: ${productName}\nQuantity: ${quantity} ${unit}\nEstimated Total: ${totalPrice}\n\nPlease confirm pricing and delivery.\n\nThank you.`;
     }
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, "_blank");
     onClose();

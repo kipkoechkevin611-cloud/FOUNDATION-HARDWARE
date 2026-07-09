@@ -45,7 +45,7 @@ export default function AboutPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center text-white"
           >
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">About Foundation Hardware</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">About General Hardware</h1>
             <p className="text-lg text-gray-200 max-w-2xl mx-auto">
               Your trusted partner in construction and building materials since 2014
             </p>
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 Building Kenya&apos;s Future, <span className="text-[#F5A623]">One Project at a Time</span>
               </h2>
               <p className="text-gray-600 mb-4">
-                Foundation Hardware has been serving builders, contractors, and homeowners since 2014. 
+                General Hardware has been serving builders, contractors, and homeowners since 2014. 
                 We have grown from a small local supplier to one of the most trusted names in building 
                 materials across the region.
               </p>
@@ -150,7 +150,7 @@ export default function AboutPage() {
               <p className="text-gray-100 leading-relaxed">
                 To be the leading and most trusted supplier of building materials in East Africa, 
                 known for quality, reliability, and innovation. We envision a future where every 
-                construction project, from homes to commercial buildings, starts with Foundation Hardware.
+                construction project, from homes to commercial buildings, starts with General Hardware.
               </p>
             </motion.div>
           </div>

@@ -40,7 +40,7 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.jpeg"
-              alt="Foundation Hardware"
+              alt="General Hardware"
               width={140}
               height={56}
               className="h-14 w-auto object-contain"

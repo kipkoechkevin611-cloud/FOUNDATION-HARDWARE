@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 export function generateWhatsAppLink(productName: string, quantity: string = "1"): string {
   const phone = "254788874942";
   const message = encodeURIComponent(
-    `Hello Foundation Hardware,\n\nI would like to order:\n\nProduct: ${productName}\nQuantity: ${quantity}\n\nPlease provide pricing and delivery information.\n\nThank you.`
+    `Hello General Hardware,\n\nI would like to order:\n\nProduct: ${productName}\nQuantity: ${quantity}\n\nPlease provide pricing and delivery information.\n\nThank you.`
   );
   return `https://wa.me/${phone}?text=${message}`;
 }
@@ -16,7 +16,7 @@ export function generateWhatsAppLink(productName: string, quantity: string = "1"
 export function generateGeneralWhatsAppLink(): string {
   const phone = "254788874942";
   const message = encodeURIComponent(
-    `Hello Foundation Hardware,\n\nI am interested in your products. Please provide more information.\n\nThank you.`
+    `Hello General Hardware,\n\nI am interested in your products. Please provide more information.\n\nThank you.`
   );
   return `https://wa.me/${phone}?text=${message}`;
 }

@@ -53,7 +53,7 @@ export default function Home() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose <span className="text-[#0F4C81]">Foundation Hardware</span>
+              Why Choose <span className="text-[#0F4C81]">General Hardware</span>
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We are committed to providing the best quality building materials with exceptional service
@@ -196,7 +196,7 @@ export default function Home() {
               Need Building Materials?
             </h2>
             <p className="text-xl text-gray-200 mb-8">
-              Contact Foundation Hardware Today for Quality Products and Competitive Prices
+              Contact General Hardware Today for Quality Products and Competitive Prices
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a

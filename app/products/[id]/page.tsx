@@ -18,12 +18,12 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   
   if (!product) {
     return {
-      title: "Product Not Found | Foundation Hardware",
+      title: "Product Not Found | General Hardware",
     };
   }
 
   return {
-    title: `${product.name} | Foundation Hardware`,
+    title: `${product.name} | General Hardware`,
     description: product.description,
     openGraph: {
       title: product.name,
